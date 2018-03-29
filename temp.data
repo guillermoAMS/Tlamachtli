@@ -1,0 +1,58 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <!-- Links the CSS file to the HTML -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- Links the JS files -->
+    <!-- Page title -->
+    <title> Home </title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Upper bar -- >
+      <div>
+        <!-- Home -- >
+        <div class="upper_header">
+          <img id="header_logo" src="media/logo.png"/>
+        </div>
+        <!-- Search bar -- >
+        <div class="upper_header">
+          <input type="text" id="searchBar" placeholder="What are you looking for?"/>
+          <i class="fa fa-search"></i>
+        </div>
+        <!-- User settings -- >
+        <div class="upper_header">
+          <!-- Username -- >
+          <div class="user_header">
+          </div>
+          <!-- Shopping cart -- >
+          <div class="user_header">
+            <img id="cart_icon" src="media/cart.png"/>
+          </div>
+          <!-- Wishlists -- >
+          <div class="user_header">
+            <img id="wishlist_icon" src="media/wishlist.png"/>
+          </div>
+          <!-- Settings -- >
+          <div class="user_header">
+            <img id="settings_icon" src="media/settings.png"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lower bar -- >
+      <div>
+        <!-- Shortcuts -- >
+      </div>
+    </header>
+
+    <!-- Display -- >
+    <div>
+    </div>
+
+    <footer>
+    </footer>
+  </body>
+</html>
