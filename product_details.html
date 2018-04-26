@@ -80,25 +80,55 @@
     <div class="container-fluid">
       <br>
       <div id="display" class="row">
-        <!-- The list of products to be displayed -->
-        <div id="product-list" class="container col-xl-10">
+        <!-- Product -->
+        <div id="main-display" class="container col-xl-10">
+          <!-- Product details -->
+          <div class="row">
+            <!-- The picture of the product -->
+            <div id="productPicture" class="col-xl-6">
+              <img class="img-responsive product-image" src="media/products/1/1_0.png">
+            </div>
+            <!-- The information of the product -->
+            <div id="product-info" class="col-xl-6">
+              <h1 id="product-name">Nombre del producto</h1>
+              <div> elaborado por <a class="craft-id" href="#">ARTESANO</a></div>
+              <span id="product-rating">Calificacion</span>
+              <hr>
+              <div id="product-price">Precio: $100.00 MXN</div>
+              <div>Origen:
+                <a class="product-origin product-city" href="#">Ciudad</a>,
+                <a class="product-origin product-state" href="#">Estado</a>
+              </div>
+              <div id="product-stock">Disponible</div>
+              <br>
+              <div id="product-description">
+                Descripcion Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Etiam fringilla dignissim diam, elementum feugiat massa
+                lacinia eget. Vivamus sit amet blandit quam. Suspendisse .
+                Pellentesque lacinia justo a libero sagittis, in posuere eros
+                porttitor. In ut tempor mauris. Phasellus odio ex, vehicula in
+                turpis non, faucibus molestie tortor.
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- Product Reviews -->
+          <h2>Opiniones de clientes</h2>
+          <div id="comment-list" class="row">
+          </div>
         </div>
 
         <!-- Sidebar -->
         <nav id="sidebar" class="col-xl-1">
           <!-- Sidebar Header -->
           <div class="sidebar-header">
-              <h3>Filtros de Búsqueda</h3>
+              <h3>Acciones de compra</h3>
           </div>
 
           <!-- Sidebar Links -->
           <ul class="list-unstyled components">
-              <li><a href="#">Filtro 1</a></li>
-              <li><a href="#">Filtro 2</a></li>
-              <li><a href="#">Filtro 3</a></li>
-              <li><a href="#">Filtro 4</a></li>
-              <li><a href="#">Filtro 5</a></li>
-              <li><a href="#">Filtro 6</a></li>
+              <li><a href="#">Comprar</a></li>
+              <li><a href="#">Agregar a la wishlist</a></li>
           </ul>
         </nav>
 
@@ -111,7 +141,7 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- Tlamachtli JS -->
     <script src="js/frequent_functions.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/product_details.js"></script>
   </body>
 
   <footer>

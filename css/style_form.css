@@ -1,0 +1,43 @@
+body {
+  color: black;
+}
+
+header {
+  color: white;
+  background-color: #334074;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer {
+  color: grey;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+fieldset {
+  padding: 20px;
+  border-style: inset;
+  border-color: #1A1032;
+  border-radius: 10px;
+  border-width: thin;
+}
+
+legend {
+  text-align: center;
+}
+
+#main_form {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#link_login {
+  text-align: center;
+}

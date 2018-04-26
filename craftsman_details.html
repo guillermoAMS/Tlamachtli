@@ -80,25 +80,55 @@
     <div class="container-fluid">
       <br>
       <div id="display" class="row">
-        <!-- The list of products to be displayed -->
-        <div id="product-list" class="container col-xl-10">
+        <!-- Craftsman  -->
+        <div id="main-display" class="container col-xl-10">
+          <!-- Craftsman details  -->
+          <div class="row">
+            <!-- The picture of the Craftsman -->
+            <div id="craftPicture" class="col-xl-6">
+              <img class="img-responsive craft-image" src="media/products/1/1_0.png">
+            </div>
+            <!-- The information of the Craftsman -->
+            <div id="craft-info" class="col-xl-6">
+              <h1 id="craft-name">Nombre del Artesano</h1>
+              <hr>
+              <div>de
+                <a class="craft-origin craft-city" href="#">Ciudad</a>,
+                <a class="craft-origin craft-state" href="#">Estado</a>
+              </div>
+              <br>
+              <div id="craft-description">
+                Descripcion Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Etiam fringilla dignissim diam, elementum feugiat massa
+                lacinia eget. Vivamus sit amet blandit quam. Suspendisse .
+                Pellentesque lacinia justo a libero sagittis, in posuere eros
+                porttitor. In ut tempor mauris. Phasellus odio ex, vehicula in
+                turpis non, faucibus molestie tortor.
+              </div>
+            </div>
+          </div>
+
+          <!-- Craftsman Works -->
+          <div id="product-list" class="container-fluid">
+          </div>
+
+          <!-- Product Reviews -->
+          <div class="row">
+          </div>
+
         </div>
+
 
         <!-- Sidebar -->
         <nav id="sidebar" class="col-xl-1">
           <!-- Sidebar Header -->
           <div class="sidebar-header">
-              <h3>Filtros de Búsqueda</h3>
+              <h3>Acciones sobre el artesano</h3>
           </div>
 
           <!-- Sidebar Links -->
           <ul class="list-unstyled components">
-              <li><a href="#">Filtro 1</a></li>
-              <li><a href="#">Filtro 2</a></li>
-              <li><a href="#">Filtro 3</a></li>
-              <li><a href="#">Filtro 4</a></li>
-              <li><a href="#">Filtro 5</a></li>
-              <li><a href="#">Filtro 6</a></li>
+              <li><a href="#">Seguir</a></li>
           </ul>
         </nav>
 
@@ -111,7 +141,7 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!-- Tlamachtli JS -->
     <script src="js/frequent_functions.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/craftsman_details.js"></script>
   </body>
 
   <footer>

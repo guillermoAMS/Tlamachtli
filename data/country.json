@@ -1,0 +1,17 @@
+[
+  {
+    "name"    : "México",
+    "code_3"  : "MEX",
+    "code_2"  : "MX"
+  },
+  {
+    "name"    : "Estados Unidos",
+    "code_3"  : "USA",
+    "code_2"  : "US"
+  },
+  {
+    "name"    : "Canada",
+    "code_3"  : "CAN",
+    "code_2"  : "CA"
+  }
+]

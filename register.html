@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- Tlamachtli CSS -->
+    <link rel="stylesheet" href="css/style_form.css">
+    <title>Registrate</title>
+  </head>
+
+  <header>
+    <div class="container">
+      <h1>Tlamachtli</h1>
+    </div>
+  </header>
+
+  <body>
+    <!-- The form to register -->
+    <div id="main_form">
+      <div class="container col-sm-4">
+        <fieldset class= "form-group">
+          <legend class="formLegend1">Regístrate</legend>
+          <!-- Name -->
+          <div class="form-group">
+            <label for="txf_fName" class="control-label">Nombre</label>
+            <input type="text" class="form-control" id="txf_fName" placeholder="Nombre">
+          </div>
+          <!-- Middle name -->
+          <div class="form-group">
+            <label for="txf_mName" class="control-label">Segundo nombre</label>
+            <input type="text" class="form-control" id="txf_mName" placeholder="Segundo Nombre">
+          </div>
+          <!-- Last name -->
+          <div class="form-group">
+            <label for="txf_lName" class="control-label">Apellidos</label>
+            <input type="text" class="form-control" id="txf_lName" placeholder="Apellidos">
+          </div>
+          <!-- Email -->
+          <div class="form-group">
+            <label for="txf_email" class="control-label">Correo-electrónico</label>
+            <input type="text" class="form-control" id="txf_email" placeholder="Correo-electrónico">
+          </div>
+          <!-- Date of Birth -->
+          <div class="form-group">
+            <label for="dtf_dob" class="control-label">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="dtf_dob" placeholder="Fecha de nacimiento">
+          </div>
+          <!-- Password -->
+          <div class="form-group">
+            <label for="txf_password" class="control-label">Contraseña</label>
+            <input type="password" class="form-control" id="txf_password" placeholder="Contraseña">
+          </div>
+          <!-- Password confirmation -->
+          <div class="form-group">
+            <label for="txf_passwordConf" class="control-label">Confirma tu contraseña</label>
+            <input type="password" class="form-control" id="txf_passwordConf" placeholder="Confirma tu contraseña">
+          </div>
+          <!-- Reset-fields button -->
+          <span class="form-group">
+            <button class="btn btn-secondary btn-block" id="btn_reset">Volver a iniciar</button>
+          </span>
+          <!-- Register button -->
+          <span class="form-group">
+            <button class="btn btn-primary btn-block" id="btn_register">Registrar</button>
+          </span>
+          <!-- Redirect to Login -->
+          <div class="form-group" id="link_login">
+            <br>
+            Ya tienes una cuenta?<br>
+            <a href="./login.html">Inicia sesión aquí!</a>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- Tlamachtli JS -->
+    <script src="js/frequent_functions.js"></script>
+    <script src="js/register.js"></script>
+  </body>
+
+  <footer>
+    <div class="container">
+      © 2018, Tlamachtli.com, Inc. o sus afiliados
+    </div>
+  </footer>
+</html>

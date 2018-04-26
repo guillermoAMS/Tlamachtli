@@ -1,0 +1,161 @@
+[
+  {
+    "country" : "MEX",
+    "states"  : [
+      {
+        "name"    : "Aguascalientes",
+        "code_3"  : "AGU",
+        "code_2"  : "AG"
+      },
+      {
+        "name"    : "Baja California",
+        "code_3"  : "BCN",
+        "code_2"  : "BC"
+      },
+      {
+        "name"    : "Baja California Sur",
+        "code_3"  : "BCS",
+        "code_2"  : "BS"
+      },
+      {
+        "name"    : "Campeche",
+        "code_3"  : "CAM",
+        "code_2"  : "CM"
+      },
+      {
+        "name"    : "Chiapas",
+        "code_3"  : "CHP",
+        "code_2"  : "CS"
+      },
+      {
+        "name"    : "Chihuahua",
+        "code_3"  : "CHH",
+        "code_2"  : "CH"
+      },
+      {
+        "name"    : "Coahuila",
+        "code_3"  : "COA",
+        "code_2"  : "CO"
+      },
+      {
+        "name"    : "Colima",
+        "code_3"  : "COL",
+        "code_2"  : "CL"
+      },
+      {
+        "name"    : "Ciudad de Mexico",
+        "code_3"  : "CMX",
+        "code_2"  : "CX"
+      },
+      {
+        "name"    : "Durango",
+        "code_3"  : "DUR",
+        "code_2"  : "DG"
+      },
+      {
+        "name"    : "Guanajuato",
+        "code_3"  : "GUA",
+        "code_2"  : "GT"
+      },
+      {
+        "name"    : "Guerrero",
+        "code_3"  : "GRO",
+        "code_2"  : "GR"
+      },
+      {
+        "name"    : "Hidalgo",
+        "code_3"  : "HID",
+        "code_2"  : "HG"
+      },
+      {
+        "name"    : "Jalisco",
+        "code_3"  : "JAL",
+        "code_2"  : "JC"
+      },
+      {
+        "name"    : "Estado de Mexico",
+        "code_3"  : "MEX",
+        "code_2"  : "ME"
+      },
+      {
+        "name"    : "Michoacan",
+        "code_3"  : "MIC",
+        "code_2"  : "MN"
+      },
+      {
+        "name"    : "Morelos",
+        "code_3"  : "MOR",
+        "code_2"  : "MS"
+      },
+      {
+        "name"    : "Nayarit",
+        "code_3"  : "NAY",
+        "code_2"  : "NT"
+      },
+      {
+        "name"    : "Nuevo Leon",
+        "code_3"  : "NLE",
+        "code_2"  : "NL"
+      },
+      {
+        "name"    : "Oaxaca",
+        "code_3"  : "OAX",
+        "code_2"  : "OC"
+      },
+      {
+        "name"    : "Puebla",
+        "code_3"  : "PUE",
+        "code_2"  : "PL"
+      },
+      {
+        "name"    : "Queretaro",
+        "code_3"  : "QUE",
+        "code_2"  : "QO"
+      },
+      {
+        "name"    : "San Luis Potosi",
+        "code_3"  : "SLP",
+        "code_2"  : "SP"
+      },
+      {
+        "name"    : "Sinaloa",
+        "code_3"  : "SIN",
+        "code_2"  : "SL"
+      },
+      {
+        "name"    : "Sonora",
+        "code_3"  : "SON",
+        "code_2"  : "SR"
+      },
+      {
+        "name"    : "Tabasco",
+        "code_3"  : "TAB",
+        "code_2"  : "TC"
+      },
+      {
+        "name"    : "Tamaulipas",
+        "code_3"  : "TAM",
+        "code_2"  : "TS"
+      },
+      {
+        "name"    : "Tlaxcala",
+        "code_3"  : "TLA",
+        "code_2"  : "TL"
+      },
+      {
+        "name"    : "Veracruz",
+        "code_3"  : "VER",
+        "code_2"  : "VZ"
+      },
+      {
+        "name"    : "Yucatan",
+        "code_3"  : "YUC",
+        "code_2"  : "YN"
+      },
+      {
+        "name"    : "Zacatecas",
+        "code_3"  : "ZAC",
+        "code_2"  : "ZS"
+      }]
+  }
+]
